@@ -12,12 +12,16 @@ using namespace std;
 
 ArrayController :: ArrayController()
 {
-	double doubleArray[5] = {0,1,2,3,4};
-	int intArray[2] = {0,1};
+	doubleArray = new double[5];
+	doubleArray[0] = 54665.58455;
+	//intArray = {0,1};
 }
 
 void ArrayController::Start()
 {
-	cout << doubleArray << endl;
-	cout << intArray << endl;
+	cout << *doubleArray << endl;
+//	cout << *intArray << endl;
+
+	double askldj[8] = {5514,5454,564654,56454};
+	cout << askldj[2] << endl;
 }

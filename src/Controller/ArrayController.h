@@ -12,8 +12,8 @@ class ArrayController
 {
 private:
 
-	double * doubleArray[5];
-	int * intArray[2];
+	double * doubleArray;
+	int * intArray;
 
 public:
 
